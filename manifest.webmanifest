@@ -13,8 +13,8 @@
     "minimal-ui"
   ],
   "orientation": "any",
-  "background_color": "#051528",
-  "theme_color": "#051528",
+  "background_color": "#08080A",
+  "theme_color": "#08080A",
   "categories": [
     "finance",
     "business",
@@ -100,34 +100,5 @@
       ]
     }
   ],
-  "screenshots": [
-    {
-      "src": "pwa-legacypro/telas/01-entrar-1170x2532.png",
-      "sizes": "1170x2532",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Entrar na plataforma"
-    },
-    {
-      "src": "pwa-legacypro/telas/02-robos-1170x2532.png",
-      "sizes": "1170x2532",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Escolha o seu robô e inicie as operações"
-    },
-    {
-      "src": "pwa-legacypro/telas/03-sala-de-aula-1170x2532.png",
-      "sizes": "1170x2532",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Sala de aula com o treinamento completo"
-    },
-    {
-      "src": "pwa-legacypro/telas/04-sala-de-aula-2560x1600.png",
-      "sizes": "2560x1600",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Sala de aula com o treinamento completo"
-    }
-  ]
+  "screenshots": []
 }
