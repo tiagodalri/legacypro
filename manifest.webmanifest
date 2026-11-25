@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Legacy Pro Trading Platform",
   "short_name": "Legacy Pro",
-  "description": "Legacy Pro: robôs de operação, gestão de risco e acompanhamento ao vivo, na sua própria conta da corretora.",
+  "description": "Legacy Pro: I.A. de operação, gestão de risco e acompanhamento ao vivo, na sua própria conta da corretora.",
   "lang": "pt-BR",
   "dir": "ltr",
   "start_url": "/?origem=app",
@@ -61,9 +61,9 @@
   "prefer_related_applications": false,
   "shortcuts": [
     {
-      "name": "Robôs",
-      "short_name": "Robôs",
-      "description": "Ligar e acompanhar os robôs",
+      "name": "I.A.",
+      "short_name": "I.A.",
+      "description": "Ligar e acompanhar as I.A.",
       "url": "/?tela=robos",
       "icons": [
         {
