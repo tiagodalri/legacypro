@@ -1,4 +1,4 @@
-import{bL as Rt,M as ot,S as $t,z as ei,j as M,r as K,P as Rr,eB as tr,D as ti,eE as Fr,eF as ri,n as ct}from"./legacypro-app.js?v=36fe1a7475c5";/**
+import{bL as Rt,M as ot,S as $t,z as ei,j as M,r as K,P as Rr,eC as tr,D as ti,eF as Fr,eG as ri,n as ct}from"./legacypro-app.js?v=438f9ea3dc13";/**
      * @license
      * KLineChart v10.0.3
      * Copyright (c) 2019 lihu.
