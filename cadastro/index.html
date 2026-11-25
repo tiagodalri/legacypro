@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#030A15">
+<title>GlobalFly · Cadastro</title>
+<!--
+  11/11/2026 (Tiago): globalflytrade.com/cadastro, /n/cadastro e /v/cadastro abrem o cadastro com a
+  escolha do plano (Gold, Black, Prestige), que mora na plataforma (CadastroComPlanos.tsx). Esta página
+  só encaminha: leva a marcação da campanha (utm, fbclid...) e o parceiro do caminho (/n, /v) como
+  ?parceiro=, que a plataforma guarda (primeiro toque) e conta como clique, e o pixel do parceiro segue
+  na página nova. A landing do lançamento de 09/11 está guardada em arquivo/landing-lancamento-09-11/.
+  O questionário e o obrigado (/cadastro/questionario/, /cadastro/obrigado/) continuam aqui.
+-->
+<style>html,body{margin:0;height:100%;background:#030A15}</style>
+<script>
+  (function () {
+    var s = location.pathname.split('/').filter(Boolean)
+    var parceiro = s.length > 1 && s[1] === 'cadastro' && /^[a-z0-9]{1,20}$/.test(s[0]) ? s[0] : ''
+    var q = new URLSearchParams(location.search)
+    q.set('cadastro', '1')
+    if (parceiro && !q.has('parceiro')) q.set('parceiro', parceiro)
+    location.replace('/?' + q.toString() + location.hash)
+  })()
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=/?cadastro=1"></noscript>
+</head>
+<body></body>
+</html>

@@ -1,0 +1,133 @@
+{
+  "id": "/",
+  "name": "Legacy Pro Trading Platform",
+  "short_name": "Legacy Pro",
+  "description": "Legacy Pro: robôs de operação, gestão de risco e acompanhamento ao vivo, na sua própria conta da corretora.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/?origem=app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#051528",
+  "theme_color": "#051528",
+  "categories": [
+    "finance",
+    "business",
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "pwa-legacypro/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-legacypro/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-legacypro/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "pwa-legacypro/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "pwa-legacypro/icon-monocromatico-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Robôs",
+      "short_name": "Robôs",
+      "description": "Ligar e acompanhar os robôs",
+      "url": "/?tela=robos",
+      "icons": [
+        {
+          "src": "pwa-legacypro/atalhos/robos.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Operar",
+      "short_name": "Operar",
+      "description": "Operação manual",
+      "url": "/?tela=operar",
+      "icons": [
+        {
+          "src": "pwa-legacypro/atalhos/operar.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Aulas",
+      "short_name": "Aulas",
+      "description": "O treinamento da plataforma",
+      "url": "/?tela=aulas",
+      "icons": [
+        {
+          "src": "pwa-legacypro/atalhos/aulas.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "pwa-legacypro/telas/01-entrar-1170x2532.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Entrar na plataforma"
+    },
+    {
+      "src": "pwa-legacypro/telas/02-robos-1170x2532.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Escolha o seu robô e inicie as operações"
+    },
+    {
+      "src": "pwa-legacypro/telas/03-sala-de-aula-1170x2532.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Sala de aula com o treinamento completo"
+    },
+    {
+      "src": "pwa-legacypro/telas/04-sala-de-aula-2560x1600.png",
+      "sizes": "2560x1600",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Sala de aula com o treinamento completo"
+    }
+  ]
+}
